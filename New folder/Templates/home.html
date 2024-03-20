@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block navmenu %}
+      <div class="menu">
+        <a href="login"><button class="button">Log in</button></a>
+      </div>
+{% endblock navmenu %}
+
+
+{% block content %}
+<div class="card-container">
+  <div class="hero">
+    <h1>CONNECT, <br>COLLABORATE<br> and SUCCEED<br>EFFORTLESSLY with<br> MUYA APP</h1>
+  </div>
+
+    <div class="card">
+        <img src="static/freelancer-01.jpg" alt="Example Image" class="card-img">
+        <div class="card-content">
+            <p class="card-text">This is another simple square card with an image, a description, and two buttons.</p>
+            <div class="card-actions">
+              <a href="register"><button class="card-btn">Sign up as Freelancer</button></a>
+          </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
